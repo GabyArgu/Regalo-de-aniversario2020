@@ -84,7 +84,7 @@ p{
 .contenedorP{
     height: 100%;
     background-image: url(../resources/fondo.jpg); 
-    background-size: 100% 105%;
+    background-size: 100% ;
 }
 
 .todo{
@@ -262,6 +262,7 @@ input:valid{
 @media screen and (max-width: 575px){
     .contenedorP{
         background-color: #ECEDE7;
+        background-image: none;
     }
 
     .titulo{
