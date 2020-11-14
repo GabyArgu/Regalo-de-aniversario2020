@@ -261,8 +261,23 @@ input:valid{
 /*Responsive bonito ;3*/
 @media screen and (max-width: 575px){
     .contenedorP{
-        background-size: 180% 100%;
+        background-color: #ECEDE7;
     }
+
+    .titulo{
+    font-size: 50px;
+    background: url("../resources/TextOrange.png") repeat-y;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    animation: textA 62s linear infinite 0s;
+    -webkit-animation: textA 62s linear infinite 0s;
+    -moz-animation: textA 62s linear infinite 0s;
+}
     .card1{
         background-size: 180% 100%;
     }
